@@ -1,4 +1,22 @@
-.img2 {
-   
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsmy5slbmYbQa9ckeG7Xh1L16qUtLycUktQI-JbAuk2_ygBj_a")
+.img{
+    width: 100%;
 }
+.card-title{
+    text-align: center;
+  padding: 10px 20px;
+}
+.card {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+
+}
+ .btn-primary {
+    text-align: center;
+ }
+ h2{
+     text-align: center;
+ }
+ p{
+     text-align: center;
+ }

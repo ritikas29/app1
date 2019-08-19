@@ -1,18 +1,18 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from '../data.service';
+import { DataService } from '../../data.service';
 
 @Component({
-  selector: 'app-tech',
-  templateUrl: './tech.component.html',
-  styleUrls: ['./tech.component.css']
+  selector: 'app-content',
+  templateUrl: './content.component.html',
+  styleUrls: ['./content.component.css']
 })
-export class TechComponent implements OnInit {
+export class ContentComponent implements OnInit {
   // tslint:disable-next-line:ban-types
   users: Object = { };
   constructor(private data: DataService) { }
 
   ngOnInit() {
-    this.data.gettechno().subscribe(data => {
+    this.data.getfood().subscribe(data => {
       this.users = data;
       console.log(this.users);
     });

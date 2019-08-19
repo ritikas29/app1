@@ -11,6 +11,8 @@ import { TechComponent } from './tech/tech.component';
 import { FoodComponent } from './food/food.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { ContentComponent } from './food/content/content.component';
+import { Content1Component } from './tech/content1/content1.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { LoginComponent } from './login/login.component';
     FoodComponent,
     HomeComponent,
     LoginComponent,
+    ContentComponent,
+    Content1Component,
   ],
   imports: [
     BrowserModule,

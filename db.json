@@ -1,0 +1,59 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "food": [
+    {
+      "title":"food1",
+      "image":"https://www.medicalnewstoday.com/content//images/articles/324/324956/close-up-of-a-plate-of-food.jpg",
+      "content":"In its recently released report, the EAT-Lancet Commission brought together scientists from the fields of health, nutrition, agriculture and environment to quantitatively define a universal reference diet that is both healthy and environmentally sustainable. The targeted diet was developed with respect to a safe operating space for food systems within planetary boundaries and promoting dietary and food production practices to ensure that the UN Sustainable Development Goals relating to hunger, health, and environment are achieved. Their reference diet presents a substantial shift from current diets, requiring a greater than 50% decrease in unhealthy foods such as red meat, sugar, starchy roots and refined grains and a greater than 100% increase in consumption of healthy foods such as nuts, fruits, vegetables and legumes, which will require changes in current food production patterns."
+    },
+    {
+      "title":"food2",
+      "image":"https://www.medicalnewstoday.com/content//images/articles/324/324956/close-up-of-a-plate-of-food.jpg",
+      "content":"In its recently released report, the EAT-Lancet Commission brought together scientists from the fields of health, nutrition, agriculture and environment to quantitatively define a universal reference diet that is both healthy and environmentally sustainable. The targeted diet was developed with respect to a safe operating space for food systems within planetary boundaries and promoting dietary and food production practices to ensure that the UN Sustainable Development Goals relating to hunger, health, and environment are achieved. Their reference diet presents a substantial shift from current diets, requiring a greater than 50% decrease in unhealthy foods such as red meat, sugar, starchy roots and refined grains and a greater than 100% increase in consumption of healthy foods such as nuts, fruits, vegetables and legumes, which will require changes in current food production patterns."
+    },
+    {
+      "title":"food3",
+      "image":"https://www.medicalnewstoday.com/content//images/articles/324/324956/close-up-of-a-plate-of-food.jpg",
+      "content":"In its recently released report, the EAT-Lancet Commission brought together scientists from the fields of health, nutrition, agriculture and environment to quantitatively define a universal reference diet that is both healthy and environmentally sustainable. The targeted diet was developed with respect to a safe operating space for food systems within planetary boundaries and promoting dietary and food production practices to ensure that the UN Sustainable Development Goals relating to hunger, health, and environment are achieved. Their reference diet presents a substantial shift from current diets, requiring a greater than 50% decrease in unhealthy foods such as red meat, sugar, starchy roots and refined grains and a greater than 100% increase in consumption of healthy foods such as nuts, fruits, vegetables and legumes, which will require changes in current food production patterns."
+    }
+
+  ],
+  "tech": [
+    {
+      "title":"NASA's Air Traffic Control System for Drones Nearing Completion",
+      "image": "http://blogs.discovermagazine.com/d-brief/files/2019/08/Drones.jpg",
+      "content":"In its recently released report, the EAT-Lancet Commission brought together scientists from the fields of health, nutrition, agriculture and environment to quantitatively define a universal reference diet that is both healthy and environmentally sustainable. The targeted diet was developed with respect to a safe operating space for food systems within planetary boundaries and promoting dietary and food production practices to ensure that the UN Sustainable Development Goals relating to hunger, health, and environment are achieved. Their reference diet presents a substantial shift from current diets, requiring a greater than 50% decrease in unhealthy foods such as red meat, sugar, starchy roots and refined grains and a greater than 100% increase in consumption of healthy foods such as nuts, fruits, vegetables and legumes, which will require changes in current food production patterns."
+    },
+    {
+      "title":"usage of one",
+      "image":"https://9to5mac.com/wp-content/uploads/sites/6/2018/11/tech-regulation.jpg?quality=82&strip=all",
+      "content": "In its recently released report, the EAT-Lancet Commission brought together scientists from the fields of health, nutrition, agriculture and environment to quantitatively define a universal reference diet that is both healthy and environmentally sustainable. The targeted diet was developed with respect to a safe operating space for food systems within planetary boundaries and promoting dietary and food production practices to ensure that the UN Sustainable Development Goals relating to hunger, health, and environment are achieved. Their reference diet presents a substantial shift from current diets, requiring a greater than 50% decrease in unhealthy foods such as red meat, sugar, starchy roots and refined grains and a greater than 100% increase in consumption of healthy foods such as nuts, fruits, vegetables and legumes, which will require changes in current food production patterns."
+    },
+    {
+      "title":"usage of two",
+      "image":"https://9to5mac.com/wp-content/uploads/sites/6/2018/11/tech-regulation.jpg?quality=82&strip=all",
+      "content":"In its recently released report, the EAT-Lancet Commission brought together scientists from the fields of health, nutrition, agriculture and environment to quantitatively define a universal reference diet that is both healthy and environmentally sustainable. The targeted diet was developed with respect to a safe operating space for food systems within planetary boundaries and promoting dietary and food production practices to ensure that the UN Sustainable Development Goals relating to hunger, health, and environment are achieved. Their reference diet presents a substantial shift from current diets, requiring a greater than 50% decrease in unhealthy foods such as red meat, sugar, starchy roots and refined grains and a greater than 100% increase in consumption of healthy foods such as nuts, fruits, vegetables and legumes, which will require changes in current food production patterns."
+    },
+    {
+      "title":"usage of three",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_zeyMqFHo45tUfQZV2hWeB5EnszEqIEpZcHmmdXJ33Q5eBpcS",
+      "content":"In its recently released report, the EAT-Lancet Commission brought together scientists from the fields of health, nutrition, agriculture and environment to quantitatively define a universal reference diet that is both healthy and environmentally sustainable. The targeted diet was developed with respect to a safe operating space for food systems within planetary boundaries and promoting dietary and food production practices to ensure that the UN Sustainable Development Goals relating to hunger, health, and environment are achieved. Their reference diet presents a substantial shift from current diets, requiring a greater than 50% decrease in unhealthy foods such as red meat, sugar, starchy roots and refined grains and a greater than 100% increase in consumption of healthy foods such as nuts, fruits, vegetables and legumes, which will require changes in current food production patterns."
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

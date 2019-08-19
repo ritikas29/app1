@@ -1,0 +1,15 @@
+<div class="container">
+    
+<div *ngFor="let user of users">
+ <h3>{{user.title}}</h3>
+        <div class="blog-image">
+      <img src="{{user.image}}" height=200px width=200px>
+    </div>
+   
+
+    <div class="blog-content">
+     <div [innerHTML]=user.content></div>
+     </div>
+  </div>
+    
+</div>

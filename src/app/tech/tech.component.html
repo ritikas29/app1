@@ -1,0 +1,30 @@
+<!--<div class="tech1">
+<table>
+<tr class="table-head">
+  <th class="name">{{user.title}}</th>
+  </tr>
+  <tr *ngFor="let user of users">
+  <td>
+  <h3>{{user.title}}</h3></td>
+  <td><img src="{{user.image}}" width="500" height="300"></td><br><br>
+  <td> <a href="/content" class="btn btn-primary">read more</a>  <td>
+  </tr>
+  </table>
+</div>-->
+  <h2>TECHNOLOGY </h2>
+  <p>Follow to get great stories about Technology in your inbox and on your homepage</p>
+  <button type="button" class="btn btn-outline-danger">Follow</button>
+ <div *ngFor="let user of users">
+   <div class="card-deck">
+  <div class="card">
+    <img src="{{user.image}}" class="card-img-top" width="400" height="400" >
+    <div class="card-body">
+      <h5 class="card-title">{{user.title}}</h5>
+      <p class="card-text">{{user.content}}</p>
+       <a href="/content1" class="btn btn-primary">read more</a>  
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+ 
+  </div>
+</div>

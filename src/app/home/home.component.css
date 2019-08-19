@@ -1,11 +1,27 @@
-.h4{
- font-family: 'Roboto', sans-serif;
- text-align: right;
- text-emphasis-color: white;
- background-color: green;
+h3{
+ font-family: 'Roboto';
+ text-align: center;
+ font-weight: bold;
+ color:#01024e;
+ text-decoration: underline;
+ 
+}
+h4{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color:#be6283;
 
 }
 .img1{
-    margin-right: 150px;
-    padding-right: 30px;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+img{
+    border-radius: 4px;
+    padding: 10px;
+    max-width: 500%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }

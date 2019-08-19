@@ -1,3 +1,4 @@
+import { ContentComponent } from './food/content/content.component';
 import { HomeComponent } from './home/home.component';
 import { FoodComponent } from './food/food.component';
 import { TechComponent } from './tech/tech.component';
@@ -12,7 +13,8 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent},
   { path: 'food', component: FoodComponent },
   { path: 'tech', component: TechComponent},
-  {path: 'home', component: HomeComponent}
+  {path: 'home', component: HomeComponent},
+  {path: 'content', component: ContentComponent}
 ];
 
 @NgModule({

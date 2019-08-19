@@ -1,3 +1,33 @@
-<div class="img2">
-<img src="assets/images/Colorful-Tumblr-Background.png" >
-   </div>
+<!--<div class="container">
+    
+<ul *ngFor="let user of users">
+ <h3>{{user.title}}</h3>
+        <div class="blog-image">
+      <img src="{{user.image}}" height=200px width=200px>
+    </div>
+   
+
+    <div class="blog-content">
+     <div [innerHTML]=user.content></div>
+     </div>
+  </ul>
+    
+</div>-->
+<h2>TOPIC: FOOD </h2>
+  <p>Follow to get great stories about food in your inbox and on your homepage</p>
+  <button type="button" class="btn btn-outline-danger">Follow</button>
+<div class="card" style="width: 30rem; padding: 2px 20px">
+  <tr *ngFor="let user of users">
+      <div class="card-deck">
+      <div class="card">
+      <img src="{{user.image}}" class="card-img-top" >
+      <div class="card-body">
+        <h5 class="card-title">{{user.title}}</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="/content" class="btn btn-primary">read more</a>  
+      </div>
+      </div>
+      </div>
+    </tr>  
+</div>
+
