@@ -1,0 +1,14 @@
+.mb-0{
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  color: #a72693;
+}
+.uname1{
+    font-weight: bold;
+    color: #a72693;
+}
+.form-control{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+} 

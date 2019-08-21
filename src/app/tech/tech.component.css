@@ -25,6 +25,11 @@ h2{
 p{
     text-align: center;
 }
-.btn .btn-outline-danger{
+ .btn-outline-danger{
     align-items: right;
 }
+.card-deck{
+    margin:80px 100px 50px 80px; 
+    width: 30rem; 
+    padding: "2px 20px";
+ }
