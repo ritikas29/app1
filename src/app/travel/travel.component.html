@@ -2,3 +2,42 @@
   <p>Follow to get great stories about Travel in your inbox and on your homepage
   <button type="button" class="btn btn-outline-danger">Follow</button>
   </p>
+  <div class="background4">
+  <img src="//lh3.googleusercontent.com/F13JvZjM5cCjOttGTn7eJiqCW21EohcHoqhhoKzwvuJAY8QN0t9uOlgRE_PCug=d" class="background--layer design2" alt="Preview template" sizes="(min-width: 37.5rem) 55vw, 56vw" srcset="//lh3.googleusercontent.com/F13JvZjM5cCjOttGTn7eJiqCW21EohcHoqhhoKzwvuJAY8QN0t9uOlgRE_PCug=w32 32w,
+                 //lh3.googleusercontent.com/F13JvZjM5cCjOttGTn7eJiqCW21EohcHoqhhoKzwvuJAY8QN0t9uOlgRE_PCug=w48 48w,
+                 //lh3.googleusercontent.com/F13JvZjM5cCjOttGTn7eJiqCW21EohcHoqhhoKzwvuJAY8QN0t9uOlgRE_PCug=w64 64w,
+                 //lh3.googleusercontent.com/F13JvZjM5cCjOttGTn7eJiqCW21EohcHoqhhoKzwvuJAY8QN0t9uOlgRE_PCug=w96 96w,
+                 //lh3.googleusercontent.com/F13JvZjM5cCjOttGTn7eJiqCW21EohcHoqhhoKzwvuJAY8QN0t9uOlgRE_PCug=w128 128w,
+                 //lh3.googleusercontent.com/F13JvZjM5cCjOttGTn7eJiqCW21EohcHoqhhoKzwvuJAY8QN0t9uOlgRE_PCug=w192 192w,
+                 //lh3.googleusercontent.com/F13JvZjM5cCjOttGTn7eJiqCW21EohcHoqhhoKzwvuJAY8QN0t9uOlgRE_PCug=w256 256w,
+                 //lh3.googleusercontent.com/F13JvZjM5cCjOttGTn7eJiqCW21EohcHoqhhoKzwvuJAY8QN0t9uOlgRE_PCug=w384 384w,
+                 //lh3.googleusercontent.com/F13JvZjM5cCjOttGTn7eJiqCW21EohcHoqhhoKzwvuJAY8QN0t9uOlgRE_PCug=w512 512w,
+                 //lh3.googleusercontent.com/F13JvZjM5cCjOttGTn7eJiqCW21EohcHoqhhoKzwvuJAY8QN0t9uOlgRE_PCug=w768 768w,
+                 //lh3.googleusercontent.com/F13JvZjM5cCjOttGTn7eJiqCW21EohcHoqhhoKzwvuJAY8QN0t9uOlgRE_PCug=w1024 1024w,
+                 //lh3.googleusercontent.com/F13JvZjM5cCjOttGTn7eJiqCW21EohcHoqhhoKzwvuJAY8QN0t9uOlgRE_PCug=w1200 1200w,
+                 //lh3.googleusercontent.com/F13JvZjM5cCjOttGTn7eJiqCW21EohcHoqhhoKzwvuJAY8QN0t9uOlgRE_PCug=d 1600w">
+  </div>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
+  <div class="body1">
+  <div class="container">
+<div *ngFor="let user of users">
+  <div class="card">
+    <h3 class="title">{{user.title}}</h3>
+    <img class="card-img-top" src="{{user.image}}">
+    <div class="bar">
+      <div class="emptybar">
+        <p class="card-text">{{user.subtitle}}</p>
+       <a href="/content" >read more....</a>  
+      </div>
+      <div class="filledbar">
+      </div>
+    </div>
+    <!--<div class="circle">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <circle class="stroke" cx="60" cy="60" r="50"/>
+    </svg>
+    </div>-->
+  </div>
+</div>
+</div>
+</div>

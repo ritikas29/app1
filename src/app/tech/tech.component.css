@@ -8,11 +8,11 @@
 .p{
     text-align: center;
     padding: 40%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Roboto",sans-serif;
 }
 h2{
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Roboto",sans-serif;
     font-weight: bold;
     color: #382039;
 }
@@ -24,6 +24,7 @@ h2{
 }
 p{
     text-align: center;
+    font-family: "Roboto",sans-serif;
 }
  .btn-outline-danger{
     align-items: right;
@@ -31,5 +32,54 @@ p{
 .card-deck{
     margin:80px 100px 50px 80px; 
     width: 30rem; 
-    padding: "2px 20px";
+    padding: "2px 50px";
+    align-items: center;
+ }
+ .card{
+    display: flex;
+    height: 500px;
+    width: 800%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+    margin-left: -50px;
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+ }
+ .card:not(:first-child) {
+    margin-left: -50px;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.card:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+ .card-img-top{
+     width: 100%;
+     height: 50%;
+ }
+ .img35{
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+ }
+ .btn{
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 50px 20px;
+ }
+ .btn1{
+    border: 3px solid grey;
+    padding: 10px;
+    border-radius: 50px 20px;
+    color:#200f21;
+    font-weight: bold;
+    font-family: "Roboto",sans-serif;
  }

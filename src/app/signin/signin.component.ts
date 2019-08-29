@@ -1,7 +1,6 @@
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-
+import { Router } from '@angular/router';
+import { Http, RequestOptions, Headers } from '@angular/http';
 import { Component, OnInit } from '@angular/core';
-import { DataService } from '../data.service';
 
 
 @Component({
@@ -9,25 +8,29 @@ import { DataService } from '../data.service';
   templateUrl: './signin.component.html',
   styleUrls: ['./signin.component.css']
 })
-export class SigninComponent implements OnInit {
-    messageForm: FormGroup;
-    submitted = false;
-    success = false;
-    // tslint:disable-next-line:ban-types
-    users: Object = { };
+export class SigninComponent  {
+    public input1: any;
   // tslint:disable-next-line:no-shadowed-variable
-  constructor(private FormBuilder: FormBuilder, private data: DataService) {
-    this.messageForm = this.FormBuilder.group({
-      name: ['', Validators.required],
-      message: ['', Validators.required]
-    });
+  constructor(private http: Http, private router: Router) {
+     this.input1 = {
+           username: '',
+           password: '',
+           cpassword: ''
+     };
    }
 
-  ngOnInit() {
-    this.data.getsignin().subscribe(data => {
-      this.users = data;
-      console.log(this.users);
-    });
+  public getsignin() {
+    if (this.input1.username && this.input1.password ) {
+      const headers = new Headers({ 'content-type': 'application/json'});
+      // tslint:disable-next-line:object-literal-shorthand
+      const options = new RequestOptions({ headers: headers });
+       // tslint:disable-next-line:align
+       this.http.post('http://localhost:3000/posts', JSON.stringify(this.input1), options)
+        .map(input => input.json() )
+        .subscribe(input => {
+          this.router.navigate(['/home'], { queryParams: input });
+        });
+     }
   }
 
 }

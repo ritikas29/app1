@@ -11,21 +11,24 @@
   </tr>
   </table>
 </div>-->
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+<div class="img35">
   <h2>TECHNOLOGY </h2>
   <p>Follow to get great stories about Technology in your inbox and on your homepage
   <button type="button" class="btn btn-outline-danger">Follow</button>
   </p>
- <div *ngFor="let user of users">
-   <div class="card-deck">
-  <div class="card">
-    <img src="{{user.image}}" class="card-img-top" width="400" height="400" >
-    <div class="card-body">
-      <h5 class="card-title">{{user.title}}</h5>
-      <p class="card-text">{{user.content}}</p>
-       <a href="/content1" class="btn btn-primary">read more</a>  
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  
+  <div *ngFor="let user of users">
+    <div class="card-deck">
+    <div class="card w-75">
+      <img src="{{user.image}}" class="card-img-top" width="400" height="400" >
+      <div class="card-body">
+        <h5 class="card-title">{{user.title}}</h5>
+        <p class="card-text">{{user.subtitle}}</p>
+        <a href="/content1" class="btn1">READ MORE</a>  
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
     </div>
-  </div>
- 
+ </div>
   </div>
 </div>

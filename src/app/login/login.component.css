@@ -1,7 +1,8 @@
 .mb-0{
   font-family:'Times New Roman', Times, serif;
   text-align: center;
-  color: #a72693;
+  font-weight: bold;
+  color: #6e2142;
 }
 .uname1{
     font-weight: bold;
@@ -10,5 +11,14 @@
 .form-control{
   border: 1px solid;
   padding: 10px;
-  box-shadow: 5px 10px 8px #888888;
+  box-shadow: inset 5px 10px 8px #888888;
 } 
+.card-body{
+  box-shadow: 5px 10px 8px #888888;
+}
+.card-header{
+  background-color: #c83660;
+}
+.btn-primary{
+  background-color: #6e2142;
+}

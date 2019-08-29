@@ -1,7 +1,11 @@
+import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
+import { DataService } from './data.service';
+import { HttpModule } from '@angular/http';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,7 +18,7 @@ import { LoginComponent } from './login/login.component';
 import { ContentComponent } from './food/content/content.component';
 import { Content1Component } from './tech/content1/content1.component';
 import { TravelComponent } from './travel/travel.component';
-
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,9 +36,12 @@ import { TravelComponent } from './travel/travel.component';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    RouterModule,
+    HttpModule
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

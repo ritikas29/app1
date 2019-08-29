@@ -8,7 +8,7 @@ import { DataService } from './../data.service';
 })
 export class FoodComponent implements OnInit {
   // tslint:disable-next-line:ban-types
-  users: Object = { };
+  users: Object = { }; // it is possible to create a plain object
   constructor(private data: DataService) { }
 
   ngOnInit() {

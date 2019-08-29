@@ -17,15 +17,39 @@
  h2{
      text-align: center;
      font-weight: bold;
+     color: white;
+     font-family: 'Roboto Condensed', sans-serif;
  }
  p{
      text-align: center;
+     color: whitesmoke;
+     font-family: 'Roboto Condensed', sans-serif;
+     font-weight: bold;
  }
  .btn-outline-danger{
      text-align: right;
+     color: white;
  }
  .card-deck{
     margin:80px 100px 50px 80px; 
     width: 30rem; 
     padding: "2px 20px";
+    justify-content: space-between;
+ }
+ .img34 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR07y8Z_CDM91GMmcofnUAAvzvOnDaCJMeXlcXd8iHnH0IlZ6krBQ');
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .card-text{
+    color: black;
+ }
+ .btn{
+     color: white;
  }
