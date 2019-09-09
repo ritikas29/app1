@@ -1,7 +1,64 @@
 {
   "posts": [
     {
-  
+      "id": 1,
+      "title": "..."
+    },
+    {
+      "username": "raj",
+      "password": "we12",
+      "id": 2
+    },
+    {
+      "username": "raj",
+      "password": "we12",
+      "id": 3
+    },
+    {
+      "username": "raj",
+      "password": "qqqq",
+      "id": 4
+    },
+    {
+      "username": "tina",
+      "password": "1234",
+      "email": "",
+      "id": 5
+    },
+    {
+      "username": "nia",
+      "password": "1234",
+      "id": 6
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "title": "..."
+    }
+  ],
+  "signin": [
+    {
+      "id": 1,
+      "title": "..."
+    },
+    {
+      "username": "sharma",
+      "password": "wer1234",
+      "email": "rk-sharma@gmail.com",
+      "id": 2
+    },
+    {
+      "username": "garima",
+      "password": "qwer",
+      "email": "garimas@gmail.com",
+      "id": 3
+    },
+    {
+      "username": "ritikaaa",
+      "password": "we123",
+      "email": "sethi@gmail.com",
+      "id": 4
     }
   ],
   "comments": [
@@ -13,73 +70,72 @@
   ],
   "food": [
     {
-      "title":"food1",
-      "image":"https://www.medicalnewstoday.com/content//images/articles/324/324956/close-up-of-a-plate-of-food.jpg",
-      "content":"In its recently released report, the EAT-Lancet Commission brought together scientists from the fields of health, nutrition, agriculture and environment to quantitatively define a universal reference diet that is both healthy and environmentally sustainable. The targeted diet was developed with respect to a safe operating space for food systems within planetary boundaries and promoting dietary and food production practices to ensure that the UN Sustainable Development Goals relating to hunger, health, and environment are achieved. Their reference diet presents a substantial shift from current diets, requiring a greater than 50% decrease in unhealthy foods such as red meat, sugar, starchy roots and refined grains and a greater than 100% increase in consumption of healthy foods such as nuts, fruits, vegetables and legumes, which will require changes in current food production patterns."
+      "title": "food1",
+      "image": "https://www.medicalnewstoday.com/content//images/articles/324/324956/close-up-of-a-plate-of-food.jpg",
+      "content": "In its recently released report, the EAT-Lancet Commission brought together scientists from the fields of health, nutrition, agriculture and environment to quantitatively define a universal reference diet that is both healthy and environmentally sustainable. The targeted diet was developed with respect to a safe operating space for food systems within planetary boundaries and promoting dietary and food production practices to ensure that the UN Sustainable Development Goals relating to hunger, health, and environment are achieved. Their reference diet presents a substantial shift from current diets, requiring a greater than 50% decrease in unhealthy foods such as red meat, sugar, starchy roots and refined grains and a greater than 100% increase in consumption of healthy foods such as nuts, fruits, vegetables and legumes, which will require changes in current food production patterns."
     },
     {
-      "title":"food2",
-      "image":"https://www.medicalnewstoday.com/content//images/articles/324/324956/close-up-of-a-plate-of-food.jpg",
-      "content":"In its recently released report, the EAT-Lancet Commission brought together scientists from the fields of health, nutrition, agriculture and environment to quantitatively define a universal reference diet that is both healthy and environmentally sustainable. The targeted diet was developed with respect to a safe operating space for food systems within planetary boundaries and promoting dietary and food production practices to ensure that the UN Sustainable Development Goals relating to hunger, health, and environment are achieved. Their reference diet presents a substantial shift from current diets, requiring a greater than 50% decrease in unhealthy foods such as red meat, sugar, starchy roots and refined grains and a greater than 100% increase in consumption of healthy foods such as nuts, fruits, vegetables and legumes, which will require changes in current food production patterns."
+      "title": "food2",
+      "image": "https://www.medicalnewstoday.com/content//images/articles/324/324956/close-up-of-a-plate-of-food.jpg",
+      "content": "In its recently released report, the EAT-Lancet Commission brought together scientists from the fields of health, nutrition, agriculture and environment to quantitatively define a universal reference diet that is both healthy and environmentally sustainable. The targeted diet was developed with respect to a safe operating space for food systems within planetary boundaries and promoting dietary and food production practices to ensure that the UN Sustainable Development Goals relating to hunger, health, and environment are achieved. Their reference diet presents a substantial shift from current diets, requiring a greater than 50% decrease in unhealthy foods such as red meat, sugar, starchy roots and refined grains and a greater than 100% increase in consumption of healthy foods such as nuts, fruits, vegetables and legumes, which will require changes in current food production patterns."
     },
     {
-      "title":"food3",
-      "image":"https://www.medicalnewstoday.com/content//images/articles/324/324956/close-up-of-a-plate-of-food.jpg",
-      "content":"In its recently released report, the EAT-Lancet Commission brought together scientists from the fields of health, nutrition, agriculture and environment to quantitatively define a universal reference diet that is both healthy and environmentally sustainable. The targeted diet was developed with respect to a safe operating space for food systems within planetary boundaries and promoting dietary and food production practices to ensure that the UN Sustainable Development Goals relating to hunger, health, and environment are achieved. Their reference diet presents a substantial shift from current diets, requiring a greater than 50% decrease in unhealthy foods such as red meat, sugar, starchy roots and refined grains and a greater than 100% increase in consumption of healthy foods such as nuts, fruits, vegetables and legumes, which will require changes in current food production patterns."
+      "title": "food3",
+      "image": "https://www.medicalnewstoday.com/content//images/articles/324/324956/close-up-of-a-plate-of-food.jpg",
+      "content": "In its recently released report, the EAT-Lancet Commission brought together scientists from the fields of health, nutrition, agriculture and environment to quantitatively define a universal reference diet that is both healthy and environmentally sustainable. The targeted diet was developed with respect to a safe operating space for food systems within planetary boundaries and promoting dietary and food production practices to ensure that the UN Sustainable Development Goals relating to hunger, health, and environment are achieved. Their reference diet presents a substantial shift from current diets, requiring a greater than 50% decrease in unhealthy foods such as red meat, sugar, starchy roots and refined grains and a greater than 100% increase in consumption of healthy foods such as nuts, fruits, vegetables and legumes, which will require changes in current food production patterns."
     }
-
   ],
   "tech": [
     {
-      "title":"NASA's Air Traffic Control System for Drones Nearing Completion",
+      "title": "NASA's Air Traffic Control System for Drones Nearing Completion",
       "image": "https://miro.medium.com/fit/c/1920/1275/1*JgG3a7xt8VmrlKCjczIpnA.jpeg",
-      "subtitle":"I have always been observant.I’m fascinated with the way people handle",
-       "content": "I have always been observant.I’m fascinated with the way people handle themselves in various situations.Whenever I find myself in a crowded area, my eyes dart around my surroundings to see how people act. This practice became more attuned while I was travelling for five years."
+      "subtitle": "I have always been observant.I’m fascinated with the way people handle",
+      "content": "I have always been observant.I’m fascinated with the way people handle themselves in various situations.Whenever I find myself in a crowded area, my eyes dart around my surroundings to see how people act. This practice became more attuned while I was travelling for five years."
     },
     {
-      "title":"Ionic 4 and the Lifecycle Hooks",
-      "image":"https://9to5mac.com/wp-content/uploads/sites/6/2018/11/tech-regulation.jpg?quality=82&strip=all",
+      "title": "Ionic 4 and the Lifecycle Hooks",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2018/11/tech-regulation.jpg?quality=82&strip=all",
       "content": "In its recently released report, the EAT-Lancet Commission brought together scientists from the fields of health, nutrition, agriculture and environment to quantitatively define a universal reference diet that is both healthy and environmentally sustainable. The targeted diet was developed with respect to a safe operating space for food systems within planetary boundaries and promoting dietary and food production practices to ensure that the UN Sustainable Development Goals relating to hunger, health, and environment are achieved. Their reference diet presents a substantial shift from current diets, requiring a greater than 50% decrease in unhealthy foods such as red meat, sugar, starchy roots and refined grains and a greater than 100% increase in consumption of healthy foods such as nuts, fruits, vegetables and legumes, which will require changes in current food production patterns.",
       "subtitle": "In its recently released report, the EAT-Lancet Commission brought together scientists from the fields"
     },
     {
-      "title":"A Simple Progressive Web App Tutorial",
-      "image":"https://miro.medium.com/max/890/1*pvvePGbGpAde1vQ38nJdEA.jpeg",
-      "content":"In its recently released report, the EAT-Lancet Commission brought together scientists from the fields of health, nutrition, agriculture and environment to quantitatively define a universal reference diet that is both healthy and environmentally sustainable. The targeted diet was developed with respect to a safe operating space for food systems within planetary boundaries and promoting dietary and food production practices to ensure that the UN Sustainable Development Goals relating to hunger, health, and environment are achieved. Their reference diet presents a substantial shift from current diets, requiring a greater than 50% decrease in unhealthy foods such as red meat, sugar, starchy roots and refined grains and a greater than 100% increase in consumption of healthy foods such as nuts, fruits, vegetables and legumes, which will require changes in current food production patterns.",
-      "subtitle":"In its recently released report, the EAT-Lancet Commission brought together scientists"
+      "title": "A Simple Progressive Web App Tutorial",
+      "image": "https://miro.medium.com/max/890/1*pvvePGbGpAde1vQ38nJdEA.jpeg",
+      "content": "In its recently released report, the EAT-Lancet Commission brought together scientists from the fields of health, nutrition, agriculture and environment to quantitatively define a universal reference diet that is both healthy and environmentally sustainable. The targeted diet was developed with respect to a safe operating space for food systems within planetary boundaries and promoting dietary and food production practices to ensure that the UN Sustainable Development Goals relating to hunger, health, and environment are achieved. Their reference diet presents a substantial shift from current diets, requiring a greater than 50% decrease in unhealthy foods such as red meat, sugar, starchy roots and refined grains and a greater than 100% increase in consumption of healthy foods such as nuts, fruits, vegetables and legumes, which will require changes in current food production patterns.",
+      "subtitle": "In its recently released report, the EAT-Lancet Commission brought together scientists"
     },
     {
-      "title":"JavaScript Frameworks, Performance Comparison",
-      "image":"https://miro.medium.com/fit/c/1981/1080/1*WFUHUqATU9GofyMsYAt6wg.png",
-      "content":"In its recently released report, the EAT-Lancet Commission brought together scientists from the fields of health, nutrition, agriculture and environment to quantitatively define a universal reference diet that is both healthy and environmentally sustainable. The targeted diet was developed with respect to a safe operating space for food systems within planetary boundaries and promoting dietary and food production practices to ensure that the UN Sustainable Development Goals relating to hunger, health, and environment are achieved. Their reference diet presents a substantial shift from current diets, requiring a greater than 50% decrease in unhealthy foods such as red meat, sugar, starchy roots and refined grains and a greater than 100% increase in consumption of healthy foods such as nuts, fruits, vegetables and legumes, which will require changes in current food production patterns.",
-      "subtitle":"The ultimate performance battle between JavaScript frameworks"
+      "title": "JavaScript Frameworks, Performance Comparison",
+      "image": "https://miro.medium.com/fit/c/1981/1080/1*WFUHUqATU9GofyMsYAt6wg.png",
+      "content": "In its recently released report, the EAT-Lancet Commission brought together scientists from the fields of health, nutrition, agriculture and environment to quantitatively define a universal reference diet that is both healthy and environmentally sustainable. The targeted diet was developed with respect to a safe operating space for food systems within planetary boundaries and promoting dietary and food production practices to ensure that the UN Sustainable Development Goals relating to hunger, health, and environment are achieved. Their reference diet presents a substantial shift from current diets, requiring a greater than 50% decrease in unhealthy foods such as red meat, sugar, starchy roots and refined grains and a greater than 100% increase in consumption of healthy foods such as nuts, fruits, vegetables and legumes, which will require changes in current food production patterns.",
+      "subtitle": "The ultimate performance battle between JavaScript frameworks"
     }
   ],
   "travel": [
-     {
-       "title":"Why every travel photographer should carry a notebook",
-       "image":"https://cdn-images-1.medium.com/fit/t/800/240/1*4fR4xofpFwwUX4uQfAW0og.jpeg",
-       "subtitle":"Even before I took up my writing career again ",
-       "content":"Even before I took up my writing career again — to be able to both shoot and write for the articles I’m doing — I’ve been carrying a black, pocket-sized notebook. This journal is what I turn to when I sit down to start writing my articles. It is filled with words, sentences and letters, most of them written in a barely decryptable handwriting. I use it to write down the addresses and names of the restaurants and hotels I’m visiting. And the time schedules for trains or names of traditional meals, straight forward stuff. But all of those facts are available online, for you and everyone else."
-     },
-     {
-       "title":"The Solo Traveler’s Guide to Dealing With Loneliness",
-       "image":"https://cdn-images-1.medium.com/focal/800/240/53/43/1*_d_XNeWafCkoRuQ2cCkQWg.jpeg",
-       "subtitle":"Turns out the thrill of exploring a new place alone ",
-       "content":"Turns out the thrill of exploring a new place alone doesn’t negate how difficult it can be Last December, I embarked on a month-long solo trip to Eastern Europe. I’d been feeling a bit stalled personally and professionally, and I thought a big adventure would help me get unstuck. I booked a flight to Estonia, reserved a few nights in an Airbnb…  "
-     },
-     {
-       "title":"What's the Point of Traveling?",
-       "image":"https://cdn-images-1.medium.com/fit/t/800/240/1*2SDFmeWqZqwgHhXBAw-pOA.png",
-       "subtitle":"Acouple of years ago, I decided to stop taking photographs",
-       "content":"Acouple of years ago, I decided to stop taking photographs. I’ve never been one to hold on to physical possessions. It only felt right, then, that I rid myself the escape of digital ones, too."
-     },
-     {
-       "title":"How (And Why) To Travel Alone",
-       "image":"https://cdn-images-1.medium.com/fit/t/800/240/1*QTl04KBlcijleHlDsSYIWA.jpeg",
-       "subtitle":"Earlier this year, I traveled alone across Europe",
-       "content":"Earlier this year, I traveled alone across Europe. In some cities I knew a friend from college, in others perhaps a friend of a friend, but for all intents and purposes I wandered around by myself with no plan for about a month. Even for someone a close friend recently referred to as “the most extroverted person I know,” it was one of the best months of my life."
-     }
+    {
+      "title": "Why every travel photographer should carry a notebook",
+      "image": "https://cdn-images-1.medium.com/fit/t/800/240/1*4fR4xofpFwwUX4uQfAW0og.jpeg",
+      "subtitle": "Even before I took up my writing career again ",
+      "content": "Even before I took up my writing career again — to be able to both shoot and write for the articles I’m doing — I’ve been carrying a black, pocket-sized notebook. This journal is what I turn to when I sit down to start writing my articles. It is filled with words, sentences and letters, most of them written in a barely decryptable handwriting. I use it to write down the addresses and names of the restaurants and hotels I’m visiting. And the time schedules for trains or names of traditional meals, straight forward stuff. But all of those facts are available online, for you and everyone else."
+    },
+    {
+      "title": "The Solo Traveler’s Guide to Dealing With Loneliness",
+      "image": "https://cdn-images-1.medium.com/focal/800/240/53/43/1*_d_XNeWafCkoRuQ2cCkQWg.jpeg",
+      "subtitle": "Turns out the thrill of exploring a new place alone ",
+      "content": "Turns out the thrill of exploring a new place alone doesn’t negate how difficult it can be Last December, I embarked on a month-long solo trip to Eastern Europe. I’d been feeling a bit stalled personally and professionally, and I thought a big adventure would help me get unstuck. I booked a flight to Estonia, reserved a few nights in an Airbnb…  "
+    },
+    {
+      "title": "What's the Point of Traveling?",
+      "image": "https://cdn-images-1.medium.com/fit/t/800/240/1*2SDFmeWqZqwgHhXBAw-pOA.png",
+      "subtitle": "Acouple of years ago, I decided to stop taking photographs",
+      "content": "Acouple of years ago, I decided to stop taking photographs. I’ve never been one to hold on to physical possessions. It only felt right, then, that I rid myself the escape of digital ones, too."
+    },
+    {
+      "title": "How (And Why) To Travel Alone",
+      "image": "https://cdn-images-1.medium.com/fit/t/800/240/1*QTl04KBlcijleHlDsSYIWA.jpeg",
+      "subtitle": "Earlier this year, I traveled alone across Europe",
+      "content": "Earlier this year, I traveled alone across Europe. In some cities I knew a friend from college, in others perhaps a friend of a friend, but for all intents and purposes I wandered around by myself with no plan for about a month. Even for someone a close friend recently referred to as “the most extroverted person I know,” it was one of the best months of my life."
+    }
   ],
   "profile": {
     "name": "typicode"

@@ -1,37 +1,56 @@
-import { DataService } from './../data.service';
-import { Component, OnInit } from '@angular/core';
-import { Http, Headers, RequestOptions } from '@angular/http';
-// tslint:disable-next-line:import-blacklist
-import 'rxjs/Rx';
+import { Component, OnInit, HostBinding } from '@angular/core';
+import { AngularFire, AuthProviders, AuthMethods } from 'angularfire2';
 import { Router } from '@angular/router';
+import { moveIn } from '../router.animations';
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+  styleUrls: ['./login.component.css'],
+  animations: [moveIn()],
+   // tslint:disable-next-line:use-host-property-decorator
+   host: {'[@moveIn]': ''}
 })
-export class LoginComponent {
-   public input: any;
-  constructor(private http: Http, private router: Router) {
-    this.input = {
-      username: '',
-      password: ''
-    };
-  }
-  public login() {
-    if (this.input.username && this.input.password ) {
-        const headers = new Headers({ 'content-type': 'application/json'});
-        // tslint:disable-next-line:object-literal-shorthand
-        const options = new RequestOptions({ headers: headers });
-         // tslint:disable-next-line:align
-         this.http.post('http://localhost:3000/posts', JSON.stringify(this.input), options)
-          .map(input => input.json() )
-          .subscribe(input => {
-            this.router.navigate(['/home'], { queryParams: input });
-          });
-       }
+export class LoginComponent implements OnInit {
+
+  error: any;
+  constructor(public af: AngularFire, private router: Router) {
+
+      this.af.auth.subscribe(auth => {
+      if (auth) {
+        this.router.navigateByUrl('/home');
+      }
+    });
 
   }
 
+  loginFb() {
+    this.af.auth.login({
+      provider: AuthProviders.Facebook,
+      method: AuthMethods.Popup,
+    }).then(
+        (success) => {
+        this.router.navigate(['/home']);
+      }).catch(
+        (err) => {
+        this.error = err;
+      });
+  }
+
+  loginGoogle() {
+    this.af.auth.login({
+      provider: AuthProviders.Google,
+      method: AuthMethods.Popup,
+    }).then(
+        (success) => {
+        this.router.navigate(['/home']);
+      }).catch(
+        (err) => {
+        this.error = err;
+      });
+  }
+
+  ngOnInit() {
+  }
 
 }

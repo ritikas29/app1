@@ -1,5 +1,8 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"> 
+
+    <div class="btn1">
+      <button (click)="logout()" class="btn-lg active" style="float: right;">Logout</button>
+    </div>
 <div class="img2">
 <!--<img src="http://66.media.tumblr.com/b7fe0bffb05c1914772d1ccc3e7b8e77/tumblr_mimj4i295J1s0387so1_500.gif" >-->
 <h3> What is a blog?</h3>
@@ -86,13 +89,25 @@
      Sign up to discover why millions of people have <br>
     published their passions here.<br><br>
     <button type="button" class="btn btn">
-  <a href="/login">Create your Blog</a>
+  <a href="/blog">Create your Blog</a>
   </button>
-    </p>
-  
+    </p> 
 </div>    
 </div>  
 </div>
+     <div class="nav-scroller py-1 mb-2">
+     <h4 class="font-italic">Elsewhere</h4>
+    <nav class="nav d-flex justify-content-between">
+    <i class="fa fa-twitter-square">
+      <a class="p-2 text-muted" href="https://twitter.com/home">Twitter</a></i>
+      <i class="fa fa-github-square">
+      <a class="p-2 text-muted" href="#">Github</a></i>
+      <i class="fa fa-facebook-square">
+      <a class="p-2 text-muted" href="#">Facebook</a></i>
+      <i class="fa fa-youtube-square">
+      <a class="p-2 text-muted" href="#">Youtube</a></i>
+    </nav>
+  </div>
 <!--
     <div class="background6">
     <img src="https://www.esomar.org/layout/js/mapsvg/maps/geo-calibrated/world-low-resolution.svg">

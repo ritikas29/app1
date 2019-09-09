@@ -5,8 +5,7 @@ import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { DataService } from './data.service';
 import { HttpModule } from '@angular/http';
-
-
+import {  AngularFireModule } from 'angularfire2';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
@@ -19,6 +18,14 @@ import { ContentComponent } from './food/content/content.component';
 import { Content1Component } from './tech/content1/content1.component';
 import { TravelComponent } from './travel/travel.component';
 import { FormsModule } from '@angular/forms';
+import { BloggingComponent } from './blogging/blogging.component';
+import { AuthGuard } from './auth.service';
+import { EmailComponent } from './email/email.component';
+import { FroalaEditorModule, FroalaViewModule } from 'angular-froala-wysiwyg';
+
+export const firebaseConfig = {
+};
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,6 +38,8 @@ import { FormsModule } from '@angular/forms';
     ContentComponent,
     Content1Component,
     TravelComponent,
+    BloggingComponent,
+    EmailComponent,
   ],
   imports: [
     BrowserModule,
@@ -39,9 +48,12 @@ import { FormsModule } from '@angular/forms';
     HttpClientModule,
     FormsModule,
     RouterModule,
-    HttpModule
+    HttpModule,
+    FroalaEditorModule.forRoot(),
+    FroalaViewModule.forRoot(),
+    AngularFireModule.initializeApp(firebaseConfig)
   ],
-  providers: [DataService],
+  providers: [AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

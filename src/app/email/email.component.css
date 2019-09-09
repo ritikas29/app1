@@ -13,14 +13,14 @@ input.txt {
     border: 1px solid #bbb;
     box-sizing: border-box;
     width: 100%;
-    height: 2.4375rem;
-    margin: 0 0 1rem;
-    box-shadow: inset 0 1px 2px hsla(0,0%,4%,.1);
-    font-family: inherit;
-    font-weight: 400;
-    color: #0a0a0a;
-    transition: box-shadow .5s,border-color .25s ease-in-out;
-    -moz-appearance: none;
+height: 2.4375rem;
+margin: 0 0 1rem;
+box-shadow: inset 0 1px 2px hsla(0,0%,4%,.1);
+font-family: inherit;
+font-weight: 400;
+color: #0a0a0a;
+transition: box-shadow .5s,border-color .25s ease-in-out;
+-moz-appearance: none;
 }
 .btn-block{
     font-family: sans-serif;

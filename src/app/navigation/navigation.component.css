@@ -37,6 +37,12 @@ ul.topnav li.right {float: right;}
 .navbar-brand {
   font-weight: bold;
  font-family: 'Roboto';
+ color: white;
+}
+.navbar-light .navbar-brand {
+
+  color: #007bff;
+
 }
 .navbar-brand1 {
   font-weight: bold;
@@ -49,4 +55,7 @@ ul.topnav li.right {float: right;}
 .navbar-brand3 {
   font-weight: bold;
  font-family: 'Roboto';
+}
+.fa{
+  color: wheat;
 }

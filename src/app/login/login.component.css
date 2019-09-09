@@ -1,24 +1,70 @@
-.mb-0{
-  font-family:'Times New Roman', Times, serif;
-  text-align: center;
-  font-weight: bold;
-  color: #6e2142;
+.fa-lock {
+    width:5%;
+    /* margin: 1.5em auto 4em auto;*/
+    max-width: 100%;
+    display: block;
+    height: auto;
+    font-size: 50px;
 }
-.uname1{
-    font-weight: bold;
-    color: #a72693;
+.fa-facebook{
+    margin-right: 20px;
 }
-.form-control{
-  border: 1px solid;
-  padding: 10px;
-  box-shadow: inset 5px 10px 8px #888888;
-} 
-.card-body{
-  box-shadow: 5px 10px 8px #888888;
+.fa-google{
+    margin-right: 20px;
 }
-.card-header{
-  background-color: #c83660;
+.fa-envelope-o{
+    margin-right: 20px;
 }
-.btn-primary{
-  background-color: #6e2142;
+#fb {
+    background:#3B5998  no-repeat 14px 6px;
+    background-size: 47px;
+    color:#fff;
+}
+#google {
+    border: 1px solid #95989A;
+    background: #fff   no-repeat 25px;
+    background-size: 25px;
+}
+
+#email {
+    background: #ECECEC   no-repeat 25px;
+    background-size: 25px;
+}
+
+@media (max-width: 600px) {
+    #page {
+        padding:1em;
+    }
+    #toolbar {
+        width:90%;
+        margin-left: -45%;
+    }
+    #fb {
+        background:#3B5998;
+    }
+
+    #google {
+        background: #fff;
+    }
+
+    #email {
+        background: #ECECEC;
+    }
+}
+.form-container {
+    background:white;
+    padding: 3.5em;
+    width: 500px;
+    position:fixed;
+    left: 50%;
+    margin-left: -250px;
+}
+.alc {
+color:grey;
+}
+.cont {
+    padding-top:2%;
+}
+.cont1{
+    padding-bottom: 500%;
 }

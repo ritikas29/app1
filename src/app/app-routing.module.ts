@@ -1,3 +1,6 @@
+import { EmailComponent } from './email/email.component';
+import { AuthGuard } from './auth.service';
+import { BloggingComponent } from './blogging/blogging.component';
 import { ContentComponent } from './food/content/content.component';
 import { HomeComponent } from './home/home.component';
 import { FoodComponent } from './food/food.component';
@@ -11,13 +14,15 @@ import { TravelComponent } from './travel/travel.component';
 
 const routes: Routes = [
   { path: 'signin', component: SigninComponent},
-  { path: 'login', component: LoginComponent},
+  { path: 'login', component: LoginComponent },
   { path: 'food', component: FoodComponent },
   { path: 'tech', component: TechComponent},
-  {path: '', component: HomeComponent},
-  {path: 'home', component: HomeComponent},
+  {path: '', pathMatch: 'full', redirectTo: '/login'},
+  {path: 'home', component: HomeComponent}, // canActivate: [AuthGuard]},
   {path: 'content', component: ContentComponent},
-  {path: 'travel', component: TravelComponent}
+  {path: 'travel', component: TravelComponent }, // canActivate: [AuthGuard]},
+  { path: 'blog', component: BloggingComponent},
+  { path: 'email', component: EmailComponent}
 ];
 
 @NgModule({
